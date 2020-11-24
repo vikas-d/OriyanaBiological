@@ -1,0 +1,103 @@
+.navbar-dark{
+	background-color: black;
+}
+@media (min-width: 992px){
+	.navbar{
+		height: 70px;
+	}
+}
+
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.jumbotron{
+	height: 220px;
+	padding: 40px 40px 50px 70px;
+	margin: 0px;
+	background-image: url("img/back.jpg");
+	color: white; 
+	text-align: justify;
+	
+}
+
+body{
+	background-color: #97CAEF;
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+	font-size: 16px;
+    color: black;	
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer{
+	background-color: black;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px; 
+    color: white;
+	
+}
+
+.address{
+	font-size: 80%;
+    margin: 0px;
+    color: white;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.cols{
+	margin: 20px 20px 50px 50px;
+}
+.card{
+	background-color: #97CAEF;
+	max-height: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right:50px; 
+	
+}
+.card-img{
+	max-height: 150px;
+	border: 2px solid #3F0C1F;
+}
+
+.card-index1{
+	max-width: 750px;
+	width: 28rem;
+	margin-top: 30px;
+	margin-left: 50px
+	margin-right:70px;
+	margin-bottom: 30px
+}
+
+
+.about{
+	margin-top: 20px;
+}
+#carouselExampleControls{
+	margin-top: 5px;
+}
+
+
